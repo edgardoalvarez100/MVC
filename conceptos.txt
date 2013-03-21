@@ -1,0 +1,25 @@
+Empecemos desde el principio, ¿qué es MVC?
+
+Aunque de forma algo simplista, podríamos definir MVC como un patrón arquitectural que describe una forma de desarrollar aplicaciones software separando los componentes en tres grupos (o capas): 
+El Modelo que contiene una representación de los datos que maneja el sistema, su lógica de negocio, y sus mecanismos de persistencia.
+La Vista, o interfaz de usuario, que compone la información que se envía al cliente y los mecanismos interacción con éste.
+El Controlador, que actúa como intermediario entre el Modelo y la Vista, gestionando el flujo de información entre ellos y las transformaciones para adaptar los datos a las necesidades de cada uno.
+MVC son las siglas de Modelo-Vista-Controlador, y se trata de un modelo muy maduro y que ha demostrado su validez a lo largo de los años en todo tipo de aplicaciones, y sobre multitud de lenguajes y plataformas de desarrollo. Puedes encontrar más información en: 
+Wikipedia, Modelo-Vista-Controlador
+Documentos originales de definición de MVC, de Trygve M. H. Reenskaug, en Xerox (¡año 1978!) 
+Tutorial de Java, Arquitectura MVC
+Model-View-Controller Web presentation pattern en MSDN
+2. ¿Qué ventajas tiene el uso del patrón MVC?
+
+Como siempre esto de enumerar ventajas es algo subjetivo, por lo que puede que pienses que falta o sobra alguna (¡dímelo!). En un primer asalto podríamos aportar las siguientes: 
+Clara separación de responsabilidades entre interfaz, lógica de negocio y de control, que además provoca parte de las ventajas siguientes.
+Facilidad para la realización de pruebas unitarias de los componentes, así como de aplicar desarrollo guiado por pruebas (TDD).
+Simplicidad en el desarrollo y mantenimiento de los sistemas.
+Reutilización de los componentes.
+Facilidad para desarrollar prototipos rápidos.
+Sencillez para crear distintas representaciones de los mismos datos.
+Los sistemas son muy eficientes, y a la postre más escalables.
+Pero bueno, también se pueden citar algunos inconvenientes: 
+Tener que ceñirse a una estructura predefinida, lo que a veces puede incrementar la complejidad del proyecto. De hecho, hay problemas que son más difíciles de resolver, o al menos cuestan algo más de trabajo, respetando el patrón MVC.
+Al principio puede cierto esfuerzo adaptarse a esta filosofía, sobre todo a desarrolladores acostumbrados a otros modelos más cercanos al escritorio, como Webforms.
+La distribución de componentes obliga a crear y mantener un mayor número de ficheros.
